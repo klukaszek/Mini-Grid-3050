@@ -34,3 +34,6 @@ FIFOs are removed and every job is logged into a respective worker log file in /
 
 ## Disclaimer
 All testing methods are not included since the graded portion of this assignment is based on how you tested your server and your reasoning/rationale behind every test.
+
+## Final Grade
+92%
