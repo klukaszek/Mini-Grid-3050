@@ -31,3 +31,6 @@ a shutdown message once the server receives an “X ready” message from a busy
 the server receives a “shutdown” message, the existing job queue is ignored entirely and the
 server tries to shut itself down along with all workers once none are busy. Upon shutdown, all
 FIFOs are removed and every job is logged into a respective worker log file in /tmp.
+
+## Disclaimer
+All testing methods are not included since the graded portion of this assignment is based on how you tested your server and your reasoning/rationale behind every test.
