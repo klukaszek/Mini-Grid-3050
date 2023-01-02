@@ -3,7 +3,7 @@
 #pass worker process its worker id
 id=$1
 
-USER=klukasze
+USER=yourname
 SERVERFIFO=/tmp/server-$USER-inputfifo
 WORKERFIFO=/tmp/worker-$USER-$id-inputfifo
 WORKERLOG=/tmp/worker-$USER.${id}.log
