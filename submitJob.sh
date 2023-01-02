@@ -1,7 +1,7 @@
 #! /bin/bash
 
 #FIFO variables
-USER=klukasze
+USER=yourname
 SERVERFIFO=/tmp/server-$USER-inputfifo
 
 #this is a placeholder since the server fifo reads id and line in the event it receives a "ready" message from a worker.
