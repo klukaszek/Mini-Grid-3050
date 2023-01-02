@@ -1,7 +1,7 @@
 #! /bin/bash
 
 #variables
-USER=klukasze
+USER=yourname
 SERVERFIFO=/tmp/server-$USER-inputfifo
 workers=$(cat /proc/cpuinfo | grep processor | wc -l)
 worker_statuses=()
