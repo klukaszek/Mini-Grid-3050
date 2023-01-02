@@ -9,7 +9,7 @@ Any tasks submitted by `jobSubmit.sh` will be run by a worker process that is sp
 
 The number of total workers is based on the number of cores on the servers CPU.
 
-## Program Design
+## Program Design (Part of my assignment report)
 My server can communicate with its workers and the submitJob script using N+1 FIFOs,
 where N=number of cores. The server has its own FIFO to receive messages from the submitJob
 script and the worker scripts, and every worker has its own FIFO to receive jobs from the server.
