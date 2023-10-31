@@ -1,6 +1,11 @@
 # Mini-Grid
 "Mini Grid" computer task management system (server) written in Bash.
 
+## Final Grade
+92/100, -8 because tests did not indicate pass/fail, TA had to reference report to see if the tests ran as intended.
+
+## Overview
+
 This project could easily be repurposed using sockets instead of FIFOs to have an actual practical application across different systems.
 
 The main system must have `server.sh` running, and any other system (in this case it's another shell) has to make sure `jobSubmit.sh` is running.
@@ -34,6 +39,3 @@ FIFOs are removed and every job is logged into a respective worker log file in /
 
 ## Disclaimer
 All testing methods are not included since the graded portion of this assignment is based on how you tested your server and your reasoning/rationale behind every test.
-
-## Final Grade
-92/100, -8 because tests did not indicate pass/fail, TA had to reference report to see if the tests ran as intended.
